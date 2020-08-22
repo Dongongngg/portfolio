@@ -1,13 +1,12 @@
 import React from "react";
-import { Link } from "gatsby";
-import "./layout.css";
+import NavBar from "../../components/nav-bar";
+//css
+import "../../styles/layout.css";
 
 const Layout = ({ children }) => {
   return (
     <React.Fragment>
-      <header className="header">
-        <Link to="/">My Portfoilo</Link>
-      </header>
+      <NavBar></NavBar>
       <main className="content">{children}</main>
     </React.Fragment>
   );
