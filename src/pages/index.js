@@ -1,4 +1,9 @@
 import React from "react";
-export default function Home() {
-  return <h1>Hello James !</h1>;
-}
+import Layout from "../pages/layouts/layout";
+export default () => {
+  return (
+    <Layout>
+      <h1>Hello James !</h1>
+    </Layout>
+  );
+};
