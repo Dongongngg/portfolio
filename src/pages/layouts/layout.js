@@ -5,9 +5,9 @@ import "../../styles/layout.css";
 
 const Layout = ({ children }) => {
   return (
-    <React.Fragment>
-      <NavBar></NavBar>
-    </React.Fragment>
+    <>
+      <NavBar></NavBar> <div>{children}</div>
+    </>
   );
 };
 export default Layout;
