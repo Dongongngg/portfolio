@@ -1,5 +1,0 @@
-
-    const cmd = require("F:/WEB/project/portfolio/node_modules/gatsby/dist/commands/develop-process.js");
-    const args = {"_":["develop"],"verbose":false,"no-color":false,"no-colors":false,"noColors":false,"noColor":false,"json":false,"H":"localhost","host":"localhost","p":"8000","port":50856,"c":"","cert-file":"","certFile":"","k":"","key-file":"","keyFile":"","ca-file":"","caFile":"","graphql-tracing":false,"graphqlTracing":false,"inspect":9229,"inspect-brk":9229,"inspectBrk":9229,"$0":"gatsby","directory":"F:\\WEB\\project\\portfolio","browserslist":[">0.25%","not dead"],"sitePackageJson":{"name":"james-portfolio","version":"1.0.0","description":"","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git+https://github.com/Dongongngg/portfolio.git"},"author":"","license":"ISC","bugs":{"url":"https://github.com/Dongongngg/portfolio/issues"},"homepage":"https://github.com/Dongongngg/portfolio#readme","dependencies":{"gatsby":"^2.24.47","react":"^16.13.1","react-dom":"^16.13.1"}},"report":{},"useYarn":false,"proxyPort":8000,"ssl":null,"debugInfo":{"port":9229,"break":false}};
-    cmd(args);
-  
