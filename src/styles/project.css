@@ -1,0 +1,13 @@
+.project-box {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.project-box .container {
+  height: 100%;
+}
+
+.project-box .container .row {
+  height: 100%;
+}
+/*# sourceMappingURL=project.css.map */

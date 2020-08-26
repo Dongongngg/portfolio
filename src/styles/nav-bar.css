@@ -1,5 +1,24 @@
+.nav-box {
+  background-color: #faf0dc;
+  padding: 0;
+}
+
+.nav-box .row {
+  margin: 0;
+}
+
 .navbar {
-  position: absolute;
   width: 100%;
+  padding: 1.5rem 1rem;
+}
+
+.navbar-custom {
+  background-color: #faf0dc;
+}
+
+.navbar-custom a {
+  font-size: 20px;
+  color: #2d235f;
+  margin: 0 10px;
 }
 /*# sourceMappingURL=nav-bar.css.map */

@@ -1,7 +1,7 @@
-.intro-box {
-  height: 100vh;
+@import "colors";
+.project-box {
+  min-height: 100vh;
   text-align: center;
-  background-color: #faf0dc;
   .container {
     height: 100%;
     .row {

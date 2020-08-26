@@ -3,10 +3,10 @@ import "../styles/banner.css";
 
 const Banner = () => {
   return (
-    <div className="container banner-box">
+    <div className="container banner">
       <div className="row">
         <div className="col align-self-center">
-          <h1>This is a Banner</h1> <p>asdasda</p>{" "}
+          <h1>Front-end Developer</h1> <p>React, Javascript, HTML</p>
         </div>
       </div>
     </div>

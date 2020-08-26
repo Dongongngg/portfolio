@@ -1,7 +1,17 @@
-.banner-box {
+@import "colors";
+.banner {
   text-align: center;
   height: 100%;
+  padding: 0px 0px 16vh 0px;
   .row {
+    width: 100%;
     height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: $green;
+    color: $base-color;
+    h1 {
+      font-size: 4rem;
+    }
   }
 }

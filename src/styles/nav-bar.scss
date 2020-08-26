@@ -1,4 +1,23 @@
+@import "colors";
+.nav-box {
+  background-color: $base-color;
+  padding: 0;
+  .row {
+    margin: 0;
+  }
+}
+
 .navbar {
-  position: absolute;
   width: 100%;
+  padding: 1.5rem 1rem;
+}
+
+.navbar-custom {
+  background-color: $base-color;
+
+  a {
+    font-size: 20px;
+    color: $text;
+    margin: 0 10px;
+  }
 }

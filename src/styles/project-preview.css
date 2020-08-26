@@ -1,0 +1,29 @@
+.project-preview-box {
+  width: 100%;
+  height: 100%;
+  padding: 16vh 0px 16vh 0px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.project-preview-box .row {
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.project-preview-box .row .col {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.project-preview-box .project-preview .card {
+  background-color: #ffd25f;
+  min-height: 60vh;
+}
+
+.project-preview-box .project-preview .card .card-title .card-text {
+  color: #faf0dc;
+}
+/*# sourceMappingURL=project-preview.css.map */
