@@ -4,9 +4,10 @@ import "../styles/banner.css";
 const Banner = () => {
   return (
     <div className="container banner">
-      <div className="row">
+      <div className="row shadow rounded">
         <div className="col align-self-center">
-          <h1>Front-end Developer</h1> <p>React, Javascript, HTML</p>
+          <h4>Front-end Developer</h4> <h1>James Dong</h1>
+          <h4>React, Javascript, HTML</h4>
         </div>
       </div>
     </div>

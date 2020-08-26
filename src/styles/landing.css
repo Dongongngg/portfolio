@@ -2,4 +2,9 @@
   height: 100vh;
   background-color: #faf0dc;
 }
+
+.dropdown-divider {
+  margin: 0 25vw;
+  border-top: 1px solid #2d235f;
+}
 /*# sourceMappingURL=landing.css.map */

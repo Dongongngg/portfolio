@@ -4,3 +4,7 @@
   height: 100vh;
   background-color: $base-color;
 }
+.dropdown-divider {
+  margin: 0 25vw;
+  border-top: 1px solid $text;
+}

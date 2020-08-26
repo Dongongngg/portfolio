@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className="container nav-box">
           <div className="row nav-box">
             <nav className="navbar navbar-expand-md navbar-light navbar-custom">
-              <span class="navbar-brand mb-0 h1">James Dong</span>
+              <span className="navbar-brand mb-0 h1">James Dong</span>
               <button
                 className="navbar-toggler"
                 onClick={handleNavBar}
