@@ -1,0 +1,14 @@
+.intro-box {
+  height: 100vh;
+  text-align: center;
+  background-color: grey;
+}
+
+.intro-box .container {
+  height: 100%;
+}
+
+.intro-box .container .row {
+  height: 100%;
+}
+/*# sourceMappingURL=intro.css.map */

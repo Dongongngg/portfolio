@@ -4,6 +4,10 @@ import Banner from "../components/banner";
 import "../styles/landing.css";
 
 const Landing = () => {
-  return <Banner></Banner>;
+  return (
+    <div className="landing-box">
+      <Banner></Banner>
+    </div>
+  );
 };
 export default Landing;
