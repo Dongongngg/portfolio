@@ -4,35 +4,35 @@ import "../styles/project-preview.css";
 const ProjectPreview = () => {
   return (
     <div className="project-preview-box">
-      <div className="container">
-        <div style={{ textAlign: "center" }} className="mt-5">
-          <h2>My Projects</h2>
-        </div>
-        <div className="row row-cols-1 row-cols-md-2 project-preview">
-          <div className="col-sm-12 col-md-6 pb-5">
-            <div className="card shadow rounded">
+      <div className="container-fluid">
+        <div className="row project-preview">
+          <div className="col-sm-12 col-md-6">
+            <div className="card shadow rounded mx-auto">
               <img src="..." className="card-img-top" alt="..."></img>
               <div className="card-body">
-                <h4 className="card-title">Property Management System</h4>
-                <p className="card-text">
-                  React.js, Material UI, Node.js, MySQL
-                </p>
+                <h5 className="card-title">Property Management System</h5>
+                <p className="card-text"></p>
                 <p className="card-text">
                   A ongoing project with iShare Incubator team.
                 </p>
                 <p className="card-text">
                   It's a full-stack web application for real estate industry.
                 </p>
+                <small className="card-text">
+                  React.js | Material UI | Node.js | MySQL
+                </small>
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 pb-5">
-            <div className="card shadow rounded">
+          <div className="col-sm-12 col-md-6 mx-auto">
+            <div className="card shadow rounded mx-auto">
               <img src="..." className="card-img-top" alt="..."></img>
               <div className="card-body">
-                <h4 className="card-title">This Page</h4>
-                <p className="card-text">Gatsby.js, React.js, Bootstrap</p>
+                <h5 className="card-title">This Page</h5>
                 <p className="card-text">Just for Practicing purpose...</p>
+                <small className="card-text">
+                  Gatsby.js | React.js | Bootstrap
+                </small>
               </div>
             </div>
           </div>

@@ -1,14 +1,10 @@
 .intro-box {
-  height: 100vh;
+  min-height: 50vh;
   background-color: #faf0dc;
 }
 
 .intro-box .container {
-  height: 100%;
-}
-
-.intro-box .container .row {
-  text-align: center;
-  height: 100%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 /*# sourceMappingURL=intro.css.map */
