@@ -1,10 +1,46 @@
 .intro-box {
   min-height: 50vh;
-  background-color: #faf0dc;
+  background-color: #de9e48;
 }
 
 .intro-box .container {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
+}
+
+.icon-box {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.icon-box .col-12 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.icon-box ul {
+  margin-bottom: 0;
+}
+
+.icon-box ul li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.icon-box .icon-caption-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=intro.css.map */

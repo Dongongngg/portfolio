@@ -1,9 +1,33 @@
 @import "colors";
 .intro-box {
   min-height: 50vh;
-  background-color: #faf0dc;
+  background-color: $yellow;
   .container {
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.icon-box {
+  padding-top: 3rem;
+  text-align: center;
+  .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  ul {
+    margin-bottom: 0;
+    li {
+      display: inline-block;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .icon-caption-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

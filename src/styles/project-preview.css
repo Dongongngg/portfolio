@@ -13,13 +13,10 @@
 }
 
 .project-preview-box .project-preview .card {
-  background-color: #ffd25f;
+  background-color: #de9e48;
+  color: #372c2e;
   min-height: 33vh;
   width: 20rem;
   margin-bottom: 5rem;
-}
-
-.project-preview-box .project-preview .card .card-title .card-text {
-  color: #faf0dc;
 }
 /*# sourceMappingURL=project-preview.css.map */

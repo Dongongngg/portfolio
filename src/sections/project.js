@@ -5,9 +5,9 @@ import "../styles/project.css";
 
 const Project = () => {
   return (
-    <div className="project-box">
-      <div className="section-title">
-        <h2>Recent Projects</h2>
+    <div className="project-box rounded shadow" id="projects">
+      <div className="section-title title-project">
+        <h1>Recent Projects</h1>
       </div>
       <ProjectPreview></ProjectPreview>
     </div>

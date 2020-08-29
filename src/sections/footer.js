@@ -1,6 +1,6 @@
 import React from "react";
 
 const Footer = () => {
-  return <h1>footer</h1>;
+  return <footer>Made By Jingfu Dong</footer>;
 };
 export default Footer;

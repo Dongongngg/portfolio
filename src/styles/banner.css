@@ -1,7 +1,8 @@
 .banner {
   text-align: center;
-  height: 100%;
-  padding: 0px 0px 16vh 0px;
+  height: 90%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .banner .row {
@@ -9,8 +10,8 @@
   height: 100%;
   margin-left: 0;
   margin-right: 0;
-  background-color: #0b4141;
-  color: #faf0dc;
+  background-color: #372c2e;
+  color: #ffffff;
 }
 
 .banner .row h1 {

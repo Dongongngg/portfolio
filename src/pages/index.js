@@ -10,6 +10,7 @@ import Project from "../sections/project";
 import Footer from "../sections/footer";
 //
 import "../styles/index.css";
+import "../styles/font.css";
 
 //
 import "../styles/reset.css";

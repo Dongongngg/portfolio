@@ -12,12 +12,10 @@
     margin-right: 0;
     .card {
       background-color: $yellow;
+      color: $black;
       min-height: 33vh;
       width: 20rem;
       margin-bottom: 5rem;
-      .card-title .card-text {
-        color: $base-color;
-      }
     }
   }
 }

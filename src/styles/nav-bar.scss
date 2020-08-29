@@ -1,6 +1,13 @@
 @import "colors";
 .nav-box {
-  background-color: $base-color;
+  background-color: $black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar-box {
+  background-color: $black;
   padding: 0;
   .row {
     margin: 0;
@@ -9,15 +16,27 @@
 
 .navbar {
   width: 100%;
-  padding: 1rem 1rem;
+  .nav-item:hover .nav-link {
+    color: $white;
+  }
 }
-
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
 .navbar-custom {
-  background-color: $base-color;
-
+  background-color: $black;
   a {
     font-size: 20px;
     color: $text;
     margin: 0 10px;
   }
+}
+
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
+}
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
 }
