@@ -13,18 +13,27 @@
   color: #de9e48;
 }
 
-.avatar {
-  vertical-align: middle;
+.title-contact {
+  color: #ffffff;
+}
+
+.avatar-box {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   border: 2px solid #ffffff;
 }
 
+.avatar-box .avatar {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
 .icon-btn {
   color: #ffffff;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .vertical-align-child {

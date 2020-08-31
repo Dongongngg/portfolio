@@ -11,23 +11,25 @@ const Intro = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-6 intro-img-box">img</div>
+          <div className="col-sm-12 col-md-6 mb-5">
+            <div className="intro-img-box mx-auto">
+              <img src="img/desktop.png" className="mx-auto shadow"></img>
+            </div>
+          </div>
           <div className="col-sm-12 col-md-6 intro-text-box">
-            <p>
-              Hi! Jingfu Dong here. I born in China and came to Australia 5
-              years ago. After I finished my Master degree of IT at University
-              of Wollongong, I moved to <big>Sydney</big> and now I'm living in
-              Burwood.
+            <p className="lead">
+              Hi, Jingfu Dong here. I'm Chinese and I came to Australia in 2016.
+              After I finished my Master degree of IT at University of
+              Wollongong, I'm living in <big>Sydney</big>.
             </p>
-            <p>
-              I'm a <big>web developer</big>, I'm passionate about IT stuff and
-              always keen on learning new technologies. I'm currently looking
-              for job.
+            <p className="lead">
+              I'm a <big>web developer</big> who is passionate about learning
+              new technologies. I have experiences of <big>full-stack</big> and{" "}
+              <big>front-end</big> development.
             </p>
-            <p>
-              I have experiences of <big>full-stack</big> and{" "}
-              <big>front-end</big> development. Here are my skill sets. Don't
-              forget to check my recent project in the next section.
+            <p className="lead">
+              Here is my skill set. Don't forget to check my recent project in
+              the next section.
             </p>
 
             <div className="row icon-box">

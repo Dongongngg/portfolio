@@ -24,7 +24,7 @@ const ProjectPreview = () => {
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 mx-auto">
+          <div className="col-sm-12 col-md-6">
             <div className="card shadow rounded mx-auto">
               <img src="..." className="card-img-top" alt="..."></img>
               <div className="card-body">

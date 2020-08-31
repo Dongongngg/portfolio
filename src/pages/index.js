@@ -7,6 +7,7 @@ import NavBar from "../components/nav-bar";
 import Landing from "../sections/landing";
 import Intro from "../sections/intro";
 import Project from "../sections/project";
+import Contact from "../sections/contact";
 import Footer from "../sections/footer";
 //
 import "../styles/index.css";
@@ -21,6 +22,7 @@ export default () => {
       <Landing></Landing>
       <Intro></Intro>
       <Project></Project>
+      {/* <Contact></Contact> */}
       <Footer></Footer>
     </React.Fragment>
   );

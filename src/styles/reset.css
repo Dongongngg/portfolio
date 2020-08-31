@@ -30,3 +30,12 @@ ul {
 button {
   cursor: pointer;
 }
+
+h1 {
+  font-size: 3rem !important;
+}
+
+a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}

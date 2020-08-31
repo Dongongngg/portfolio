@@ -11,7 +11,11 @@ import {
   faSass,
   faWordpress,
 } from "@fortawesome/free-brands-svg-icons";
-import { faDatabase, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import {
+  faDatabase,
+  faChevronDown,
+  faEnvelopeSquare,
+} from "@fortawesome/free-solid-svg-icons";
 
 library.add(
   fab,
@@ -25,5 +29,6 @@ library.add(
   faDatabase,
   faSass,
   faWordpress,
-  faChevronDown
+  faChevronDown,
+  faEnvelopeSquare
 );

@@ -9,7 +9,7 @@
 }
 
 .icon-box {
-  padding-top: 3rem;
+  padding-top: 2rem;
   text-align: center;
   .col-12 {
     padding-left: 0;
@@ -29,5 +29,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+}
+
+.intro-img-box {
+  height: 100%;
+  text-align: center;
+  img {
+    width: 80%;
+    border: 2px solid $black;
+  }
+}
+
+.intro-text-box {
+  big {
+    font-weight: 600;
   }
 }
