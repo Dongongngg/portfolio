@@ -13,7 +13,7 @@ const Intro = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6 mb-5">
             <div className="intro-img-box mx-auto">
-              <img src="img/desktop.png" className="mx-auto shadow"></img>
+              <img src="img/workspace.jpg" className="mx-auto shadow"></img>
             </div>
           </div>
           <div className="col-sm-12 col-md-6 intro-text-box">
