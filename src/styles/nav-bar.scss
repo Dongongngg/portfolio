@@ -17,7 +17,7 @@
 .navbar {
   width: 100%;
   .nav-item:hover .nav-link {
-    color: $white;
+    color: $white !important;
   }
 }
 .navbar-nav .nav-link {
@@ -27,7 +27,7 @@
   background-color: $black;
   a {
     font-size: 20px;
-    color: $text;
+
     margin: 0 10px;
   }
 }

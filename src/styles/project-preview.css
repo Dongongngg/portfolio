@@ -16,7 +16,36 @@
   background-color: #de9e48;
   color: #372c2e;
   min-height: 33vh;
-  width: 20rem;
   margin-bottom: 5rem;
+}
+
+.project-preview-box .project-preview .card a {
+  color: #372c2e;
+}
+
+.project-preview-box .project-preview .card .card-title {
+  display: inline;
+}
+
+.project-preview-box .project-preview .card .card-text {
+  margin-bottom: 5px;
+}
+
+.project-img-box {
+  height: 33vh;
+}
+
+.project-img-box .project-img {
+  border: 5px solid transparent;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 1280px) {
+  .card {
+    width: 33rem;
+  }
 }
 /*# sourceMappingURL=project-preview.css.map */

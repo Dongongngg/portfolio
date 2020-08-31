@@ -19,7 +19,7 @@
 }
 
 .navbar .nav-item:hover .nav-link {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .navbar-nav .nav-link {
@@ -32,7 +32,6 @@
 
 .navbar-custom a {
   font-size: 20px;
-  color: #2d235f;
   margin: 0 10px;
 }
 

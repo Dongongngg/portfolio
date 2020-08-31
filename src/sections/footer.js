@@ -5,10 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/footer.css";
 const Footer = () => {
   return (
-    <div className="footer-box">
+    <div className="footer-box" id="footer">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-6 d-flex justify-content-start">
+          <div className="col-7 d-flex justify-content-start">
             contact:
             <div>
               <a
@@ -26,7 +26,7 @@ const Footer = () => {
               <a className="icon-btn mb-2 ml-2">0415767286</a>
             </div>
           </div>
-          <div className="col-6 d-flex justify-content-end">
+          <div className="col-5 d-flex justify-content-end">
             <footer>Made by Jingfu</footer>
           </div>
         </div>

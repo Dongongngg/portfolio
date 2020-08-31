@@ -14,8 +14,33 @@
       background-color: $yellow;
       color: $black;
       min-height: 33vh;
-      width: 20rem;
       margin-bottom: 5rem;
+      a {
+        color: $black;
+      }
+      .card-title {
+        display: inline;
+      }
+
+      .card-text {
+        margin-bottom: 5px;
+      }
     }
+  }
+}
+
+.project-img-box {
+  height: 33vh;
+  .project-img {
+    border: 5px solid transparent;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card {
+    width: 33rem;
   }
 }

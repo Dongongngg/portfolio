@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/project-preview.css";
 
 const ProjectPreview = () => {
@@ -8,31 +9,61 @@ const ProjectPreview = () => {
         <div className="row project-preview">
           <div className="col-sm-12 col-md-6">
             <div className="card shadow rounded mx-auto">
-              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="project-img-box rounded">
+                <img
+                  className="project-img rounded"
+                  src="img/projects/ishare/property-edit-list.png"
+                  alt="ishare"
+                ></img>
+              </div>
+
               <div className="card-body">
-                <h5 className="card-title">Property Management System</h5>
+                <div className="mb-3">
+                  <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
+                  <a href="https://github.com/Dongongngg/portfolio">
+                    <h4 className="card-title ml-3">
+                      Property Management System
+                    </h4>
+                  </a>
+                </div>
+
                 <p className="card-text"></p>
+
                 <p className="card-text">
-                  A ongoing project with iShare Incubator team.
+                  Full-stack web application for real estate agency and property
+                  owners.
                 </p>
                 <p className="card-text">
-                  It's a full-stack web application for real estate industry.
+                  Allow users to create and manage property, partner and
+                  different sources of payment.
                 </p>
-                <small className="card-text">
-                  React.js | Material UI | Node.js | MySQL
-                </small>
+                <p className="card-text mt-3">
+                  React | Material UI | RESTful API | Express | Node | MySQL
+                </p>
               </div>
             </div>
           </div>
           <div className="col-sm-12 col-md-6">
             <div className="card shadow rounded mx-auto">
-              <img src="..." className="card-img-top" alt="..."></img>
+              <div className="project-img-box rounded">
+                <img
+                  className="project-img rounded"
+                  src="img/projects/portfolio/landing.png"
+                  alt="portfolio"
+                ></img>
+              </div>
               <div className="card-body">
-                <h5 className="card-title">This Page</h5>
-                <p className="card-text">Just for Practicing purpose...</p>
-                <small className="card-text">
-                  Gatsby.js | React.js | Bootstrap
-                </small>
+                <div className="mb-3">
+                  <FontAwesomeIcon icon={["fab", "github"]} size="2x" />
+                  <a href="https://github.com/Dongongngg/portfolio">
+                    <h4 className="card-title ml-3">My Portfolio</h4>
+                  </a>
+                </div>
+
+                <p className="card-text">
+                  For practicing server-side rendering and deploymeny
+                </p>
+                <p className="card-text mt-3">Gatsby | React | Bootstrap</p>
               </div>
             </div>
           </div>

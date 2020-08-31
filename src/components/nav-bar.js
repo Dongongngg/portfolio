@@ -78,14 +78,6 @@ const NavBar = () => {
                       PROJECTS
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a
-                      className="nav-link mx-0"
-                      onClick={() => scrollTo("contact")}
-                    >
-                      CONTACT
-                    </a>
-                  </li>
                 </ul>
               </div>
             </nav>
