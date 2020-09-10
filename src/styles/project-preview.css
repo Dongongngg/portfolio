@@ -13,10 +13,17 @@
 }
 
 .project-preview-box .project-preview .card {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   background-color: #de9e48;
   color: #372c2e;
   min-height: 33vh;
   margin-bottom: 5rem;
+}
+
+.project-preview-box .project-preview .card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .project-preview-box .project-preview .card a {

@@ -21,7 +21,7 @@ const Banner = () => {
             </a>
             <a
               className="icon-btn mr-3 ml-3"
-              href="https://www.linkedin.com/in/jingfu-dong-556198148/"
+              href="https://www.linkedin.com/in/jingfu-dong-james/"
             >
               <FontAwesomeIcon icon={["fab", "linkedin"]} size="3x" />
             </a>
