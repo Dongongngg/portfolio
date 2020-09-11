@@ -30,6 +30,17 @@
   color: #372c2e;
 }
 
+.project-preview-box .project-preview .card svg {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.project-preview-box .project-preview .card svg:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  cursor: pointer;
+}
+
 .project-preview-box .project-preview .card .card-title {
   display: inline;
 }

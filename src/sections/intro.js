@@ -59,6 +59,12 @@ const Intro = () => {
                       <p>MySQL</p>
                     </div>
                   </li>
+                  <li>
+                    <div className="icon-caption-box">
+                      <FontAwesomeIcon icon={["fas", "database"]} size="lg" />
+                      <p>MongoDB</p>
+                    </div>
+                  </li>
                 </ul>
               </div>
               <div className="col-12">
