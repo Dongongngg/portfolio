@@ -17,4 +17,14 @@
 .banner .row h1 {
   font-size: 4rem;
 }
+
+.banner .row svg {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.banner .row svg:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
 /*# sourceMappingURL=banner.css.map */

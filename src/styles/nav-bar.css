@@ -18,6 +18,10 @@
   width: 100%;
 }
 
+.navbar .nav-item {
+  cursor: pointer;
+}
+
 .navbar .nav-item:hover .nav-link {
   color: #ffffff !important;
 }

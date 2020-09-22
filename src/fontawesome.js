@@ -16,6 +16,7 @@ import {
   faChevronDown,
   faEnvelopeSquare,
   faLink,
+  faFileDownload,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -32,5 +33,6 @@ library.add(
   faWordpress,
   faChevronDown,
   faEnvelopeSquare,
-  faLink
+  faLink,
+  faFileDownload
 );
