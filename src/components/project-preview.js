@@ -169,7 +169,9 @@ const ProjectPreview = () => {
                     icon={["fas", "link"]}
                     size="2x"
                     onClick={() => {
-                      window.open("https://todo-list-mern.netlify.app/");
+                      window.open(
+                        "https://afternoon-inlet-07962.herokuapp.com/"
+                      );
                     }}
                     data-toggle="tooltip"
                     data-placement="bottom"
