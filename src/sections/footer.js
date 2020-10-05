@@ -22,7 +22,7 @@ const Footer = () => {
               >
                 <FontAwesomeIcon icon={["fas", "envelope-square"]} />
               </a>
-              <a className="icon-btn mb-2 ml-2">0415767286</a>
+              <h6 className="icon-btn mb-2 ml-2 d-inline">0415767286</h6>
             </div>
           </div>
           <div>
