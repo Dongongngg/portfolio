@@ -5,7 +5,7 @@ import "../styles/intro.css";
 
 const Intro = () => {
   return (
-    <div className="intro-box rounded shadow" id="about-me">
+    <div className="intro-box shadow" id="about-me">
       <div className="section-title">
         <h1>About Me</h1>
       </div>
@@ -13,7 +13,11 @@ const Intro = () => {
         <div className="row">
           <div className="col-sm-12 col-md-6 mb-5">
             <div className="intro-img-box mx-auto">
-              <img src="img/workspace.jpg" className="mx-auto shadow"></img>
+              <img
+                src="img/workspace.jpg"
+                className="mx-auto shadow"
+                alt={"img"}
+              ></img>
             </div>
           </div>
           <div className="col-sm-12 col-md-6 intro-text-box">
@@ -79,6 +83,7 @@ const Intro = () => {
                     <div className="icon-caption-box">
                       <img
                         src="img/Material UI.svg"
+                        alt={"img"}
                         style={{ width: "25px" }}
                       ></img>
                       <p>Material UI</p>

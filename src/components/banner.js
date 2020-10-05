@@ -5,7 +5,7 @@ import "../styles/banner.css";
 const Banner = () => {
   return (
     <div className="container-fluid banner">
-      <div className="row shadow rounded">
+      <div className="row shadow">
         <div className="col align-self-center">
           <div className="avatar-box mx-auto mb-2">
             <img src="img/avatar.png" alt="Avatar" className="avatar"></img>
@@ -31,7 +31,10 @@ const Banner = () => {
             >
               <FontAwesomeIcon icon={["fas", "envelope-square"]} size="3x" />
             </a>
-            <a className="icon-btn mr-3 ml-3" href="/file/resume.pdf">
+            <a
+              className="icon-btn mr-3 ml-3"
+              href="/file/Resume - Jingfu Dong.pdf"
+            >
               <FontAwesomeIcon icon={["fas", "file-download"]} size="2x" />
             </a>
             <h4 className="d-inline">CV</h4>

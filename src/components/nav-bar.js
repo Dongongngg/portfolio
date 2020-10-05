@@ -68,15 +68,15 @@ const NavBar = () => {
               >
                 <ul className="nav navbar-nav ml-auto w-100 justify-content-end">
                   <li className="nav-item" onClick={() => scrollTo("about-me")}>
-                    <a className="nav-link mx-0">ABOUT ME</a>
+                    <button className="nav-link mx-0">ABOUT ME</button>
                   </li>
                   <li className="nav-item">
-                    <a
+                    <button
                       className="nav-link mx-0"
                       onClick={() => scrollTo("projects")}
                     >
                       PROJECTS
-                    </a>
+                    </button>
                   </li>
                 </ul>
               </div>

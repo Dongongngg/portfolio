@@ -6,10 +6,9 @@ import "../styles/footer.css";
 const Footer = () => {
   return (
     <div className="footer-box" id="footer">
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-7 d-flex justify-content-start">
-            contact:
+      <div className="container">
+        <div className="row justify-content-around">
+          <div>
             <div>
               <a
                 className="icon-btn mb-2 ml-2"
@@ -26,8 +25,11 @@ const Footer = () => {
               <a className="icon-btn mb-2 ml-2">0415767286</a>
             </div>
           </div>
-          <div className="col-5 d-flex justify-content-end">
-            <footer>Made by Jingfu</footer>
+          <div>
+            <h6>Opening to work!</h6>
+          </div>
+          <div>
+            <h6>&#169; Made by Jingfu</h6>
           </div>
         </div>
       </div>
