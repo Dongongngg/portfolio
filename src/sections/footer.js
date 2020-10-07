@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container">
         <div className="row justify-content-around">
           <div>
-            <div>
+            <div className="my-auto">
               <a
                 className="icon-btn mb-2 ml-2"
                 href="https://www.linkedin.com/in/jingfu-dong-556198148/"
@@ -25,12 +25,10 @@ const Footer = () => {
               <h6 className="icon-btn mb-2 ml-2 d-inline">0415767286</h6>
             </div>
           </div>
-          <div>
-            <h6>Opening to work!</h6>
-          </div>
-          <div>
-            <h6>&#169; Made by Jingfu</h6>
-          </div>
+
+          <h6 className="my-auto">Opening to work!</h6>
+
+          <h6 className="my-auto">&#169; Made by Jingfu</h6>
         </div>
       </div>
     </div>

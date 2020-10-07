@@ -8,6 +8,18 @@
   padding-bottom: 6rem;
 }
 
+.intro-box h1::-moz-selection,
+.intro-box p::-moz-selection,
+.intro-box big::-moz-selection {
+  color: #ffeee4;
+}
+
+.intro-box h1::selection,
+.intro-box p::selection,
+.intro-box big::selection {
+  color: #ffeee4;
+}
+
 .icon-box {
   padding-top: 2rem;
   text-align: center;
@@ -24,8 +36,8 @@
 
 .icon-box ul li {
   display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .icon-box .icon-caption-box {

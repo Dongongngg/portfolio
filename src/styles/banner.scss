@@ -11,14 +11,19 @@
     margin-right: 0;
     background-color: $black;
     color: $white;
-    h1 {
-      font-size: 4rem;
-    }
     svg {
       transition: all 0.2s ease-in-out;
       &:hover {
         transform: scale(1.25);
       }
     }
+  }
+}
+
+.banner {
+  h1::selection,
+  h4::selection,
+  a::selection {
+    color: $yellow;
   }
 }

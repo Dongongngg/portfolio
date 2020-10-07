@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AACA,AAAA,WAAW,CAAC;EACV,gBAAgB,ECGV,OAAO;EDFb,KAAK,ECGC,OAAO;CDFd",
+    "mappings": "AACA,AAAA,WAAW,CAAC;EACV,gBAAgB,ECGV,OAAO;EDFb,KAAK,ECGC,OAAO;CDCd;;AAND,AAGE,WAHS,CAGT,EAAE,CAAC;EACD,SAAS,EAAE,kBAAkB;CAC9B",
     "sources": [
         "footer.scss",
         "colors.scss"

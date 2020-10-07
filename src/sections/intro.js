@@ -20,7 +20,7 @@ const Intro = () => {
               ></img>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 intro-text-box">
+          <div className="col-sm-12 col-md-6 intro-text-box px-4">
             <p className="lead">
               Hi, Jingfu Dong here. I'm Chinese and I came to Australia in 2016.
               After I finished my Master degree of IT at University of

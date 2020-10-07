@@ -14,10 +14,6 @@
   color: #ffffff;
 }
 
-.banner .row h1 {
-  font-size: 4rem;
-}
-
 .banner .row svg {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -26,5 +22,17 @@
 .banner .row svg:hover {
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
+}
+
+.banner h1::-moz-selection,
+.banner h4::-moz-selection,
+.banner a::-moz-selection {
+  color: #de9e48;
+}
+
+.banner h1::selection,
+.banner h4::selection,
+.banner a::selection {
+  color: #de9e48;
 }
 /*# sourceMappingURL=banner.css.map */
