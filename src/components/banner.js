@@ -3,6 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "../styles/banner.css";
 
 const Banner = () => {
+  setTimeout(() => {
+    document.getElementById("icons").style.display = "block";
+  }, 1000);
   return (
     <div className="container-fluid banner">
       <div className="row shadow">
@@ -12,7 +15,7 @@ const Banner = () => {
           </div>
           <h1>Jingfu Dong</h1>
           <h4>Web developer, opening to work!</h4>
-          <div className="pt-3">
+          <div className="icons pt-3 px-auto" id="icons">
             <a
               className="icon-btn mr-3 ml-3"
               href="https://github.com/Dongongngg"

@@ -13,7 +13,7 @@ const Landing = () => {
 
   return (
     <div className="landing-box">
-      <Banner></Banner>
+      <Banner />
       {/* arrow */}
       <div className="arrow-box">
         <FontAwesomeIcon

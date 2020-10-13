@@ -12,38 +12,46 @@ const ProjectPreview = () => {
               <div className="project-img-box rounded">
                 <img
                   className="project-img rounded"
-                  src="img/projects/ishare/property-edit-list.png"
-                  alt="ishare"
+                  src="img/projects/eduf3037/test.png"
+                  alt="test"
                 ></img>
               </div>
 
               <div className="card-body">
                 <div className="mb-3">
-                  <h4 className="card-title mr-3">
-                    Property Management System
-                  </h4>
+                  <h4 className="card-title mr-3">Teacher Story Game</h4>
                   <FontAwesomeIcon
                     icon={["fab", "github"]}
                     size="2x"
+                    className="mr-3"
                     onClick={() => {
-                      window.open("https://github.com/Dongongngg/portfolio");
+                      window.open(
+                        "https://github.com/Dongongngg/eduf3037-game"
+                      );
                     }}
+                  />
+                  <FontAwesomeIcon
+                    icon={["fas", "link"]}
+                    size="2x"
+                    onClick={() => {
+                      window.open("https://eduf3037-game.netlify.app/");
+                    }}
+                    data-toggle="tooltip"
+                    data-placement="bottom"
+                    title="Test it"
                   />
                 </div>
 
                 <p className="card-text"></p>
 
                 <p className="card-text">
-                  Full-stack web application for real estate agency and property
-                  owners.
+                  React application for a University educational course.
                 </p>
                 <p className="card-text">
-                  Allow users to create and manage property, partner and
-                  different sources of payment.
+                  There will be 5 scenarios and questions given to players in
+                  order to test if they are creative teachers:)
                 </p>
-                <p className="card-text mt-3">
-                  React | Material UI | RESTful API | Express | Node | MySQL
-                </p>
+                <p className="card-text mt-3">React | SASS | JavaScript</p>
               </div>
             </div>
           </div>
@@ -83,7 +91,8 @@ const ProjectPreview = () => {
                 </div>
 
                 <p className="card-text">
-                  For practicing server-side rendering and deploymeny
+                  Try Graphql, GastbyJS and Netlify deployment for the first
+                  time.
                 </p>
                 <p className="card-text mt-3">
                   Gatsby | React | Bootstrap | SASS
@@ -184,7 +193,8 @@ const ProjectPreview = () => {
                   list.
                 </p>
                 <p className="card-text">
-                  A practice of using MongoDB-Express-React-Node stack.
+                  A practice of using MongoDB-Express-React-Node stack. Deployed
+                  on Heroku.
                 </p>
                 <p className="card-text mt-3">
                   React | Bootstrap | SASS | Express | Node | MongoDB
