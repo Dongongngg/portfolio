@@ -11,9 +11,8 @@ import Landing from "../sections/landing";
 import Intro from "../sections/intro";
 import Project from "../sections/project";
 import Footer from "../sections/footer";
-//
+//style
 import "../styles/index.css";
-//rest
 import "../styles/reset.css";
 //no blink large svg
 config.autoAddCss = false;
