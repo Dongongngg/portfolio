@@ -49,6 +49,16 @@
   margin-bottom: 5px;
 }
 
+.project-preview-box .project-preview .card h4::-moz-selection,
+.project-preview-box .project-preview .card p::-moz-selection {
+  color: #ffeee4;
+}
+
+.project-preview-box .project-preview .card h4::selection,
+.project-preview-box .project-preview .card p::selection {
+  color: #ffeee4;
+}
+
 .project-img-box {
   height: 33vh;
 }

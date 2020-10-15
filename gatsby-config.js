@@ -6,11 +6,10 @@ module.exports = {
     projects: [
       {
         id: `1`,
-        title: `Teacher Story Game`,
+        title: `Teacher Test`,
         github_url: `https://github.com/Dongongngg/eduf3037-game`,
         netlify_url: `https://eduf3037-game.netlify.app/`,
-        description: `React application for a University educational course. \
-        There will be 5 scenarios and questions given to players in order to test if they are creative teachers:)`,
+        description: `React application for a University educational course. There will be 5 scenarios and questions given to players in order to test if they are creative teachers:)`,
         img: `img/projects/eduf3037/test.png`,
         skills: `React | SASS | JavaScript`,
       },
@@ -28,8 +27,7 @@ module.exports = {
         title: `COVID-19 stats`,
         github_url: `https://github.com/Dongongngg/covid19-au-stats`,
         netlify_url: `https://covid-19-au.netlify.app/`,
-        description: `Fetch and display daily COVID19 stats from api. Little practice.\
-        Don't have a valid API for states, so states section doesn't have data...`,
+        description: `Fetch and display daily COVID19 stats from API (Don't have a valid API for each state)`,
         img: `img/projects/covid19-au-stats/overall.png`,
         skills: `React | Material UI | SASS`,
       },

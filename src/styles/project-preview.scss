@@ -37,6 +37,11 @@
       .card-text {
         margin-bottom: 5px;
       }
+
+      h4::selection,
+      p::selection {
+        color: #ffeee4;
+      }
     }
   }
 }

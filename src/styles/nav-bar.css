@@ -5,6 +5,16 @@
   z-index: 1;
 }
 
+.nav-box span::-moz-selection,
+.nav-box button::-moz-selection {
+  color: #ffffff;
+}
+
+.nav-box span::selection,
+.nav-box button::selection {
+  color: #ffffff;
+}
+
 .navbar-box {
   background-color: #372c2e;
   padding: 0;

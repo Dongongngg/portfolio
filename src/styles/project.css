@@ -2,4 +2,12 @@
   min-height: 50vh;
   background-color: #064039;
 }
+
+.project-box h1::-moz-selection {
+  color: #ffeee4;
+}
+
+.project-box h1::selection {
+  color: #ffeee4;
+}
 /*# sourceMappingURL=project.css.map */
