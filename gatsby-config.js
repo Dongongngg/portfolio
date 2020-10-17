@@ -18,9 +18,9 @@ module.exports = {
         title: `My Portfolio`,
         github_url: `https://github.com/Dongongngg/portfolio`,
         netlify_url: `https://jingfudong.com`,
-        description: `Try Graphql, GastbyJS and Netlify deployment for the first time.`,
+        description: `Try Graphql, Gatsby and Netlify deployment for the first time.`,
         img: `img/projects/portfolio/landing.png`,
-        skills: `Gatsby | React | Bootstrap | SASS`,
+        skills: `Gatsby | React | Bootstrap | SASS | Graphql`,
       },
       {
         id: `3`,

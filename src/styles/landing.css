@@ -2,4 +2,42 @@
   height: 100vh;
   background-color: #ffffff;
 }
+
+.landing-box .arrow-box svg:hover {
+  cursor: pointer;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation: arrow-down 2s infinite;
+          animation: arrow-down 2s infinite;
+}
+
+@-webkit-keyframes arrow-down {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(7%);
+            transform: translateY(7%);
+  }
+  100% {
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%);
+  }
+}
+
+@keyframes arrow-down {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  50% {
+    -webkit-transform: translateY(7%);
+            transform: translateY(7%);
+  }
+  100% {
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%);
+  }
+}
 /*# sourceMappingURL=landing.css.map */

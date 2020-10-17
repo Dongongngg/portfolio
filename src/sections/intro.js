@@ -1,9 +1,25 @@
-import React from "react";
+import React, { useLayoutEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //
 import "../styles/intro.css";
 
 const Intro = () => {
+  const [show, setShow] = useState(false);
+  const ourRef = useRef(null);
+
+  useLayoutEffect(() => {
+    const topPos = (element) => element.getBoundingClientRect().top;
+    const div1Pos = topPos(ourRef.current);
+    const onScroll = () => {
+      const scrollPos = window.scrollY + window.innerHeight;
+      if (div1Pos < scrollPos) {
+        setShow(true);
+      }
+    };
+
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
   return (
     <div className="intro-box shadow" id="about-me">
       <div className="section-title">
@@ -11,8 +27,8 @@ const Intro = () => {
       </div>
       <div className="container">
         <div className="row">
-          <div className="col-sm-12 col-md-6 mb-5">
-            <div className="intro-img-box mx-auto">
+          <div className="col-sm-12 col-md-6 mb-5" ref={ourRef}>
+            <div className={"intro-img-box mx-auto" + (show ? " anim" : null)}>
               <img
                 src="img/workspace.jpg"
                 className="mx-auto shadow"
@@ -20,7 +36,11 @@ const Intro = () => {
               ></img>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 intro-text-box px-4">
+          <div
+            className={
+              "col-sm-12 col-md-6 intro-text-box px-4" + (show ? " anim" : null)
+            }
+          >
             <p className="lead">
               Hi, Jingfu Dong here. I'm Chinese and I came to Australia in 2016.
               After I finished my Master degree of IT at University of

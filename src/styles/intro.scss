@@ -1,5 +1,6 @@
 @import "colors";
 .intro-box {
+  overflow-x: hidden;
   min-height: 50vh;
   background-color: $yellow;
   .container {
@@ -43,6 +44,7 @@
 .intro-img-box {
   height: 100%;
   text-align: center;
+  transform: translateX(-100%);
   img {
     width: 80%;
     border: 2px solid $black;
@@ -50,7 +52,14 @@
 }
 
 .intro-text-box {
+  transform: translateX(100%);
+
   big {
     font-weight: 600;
   }
+}
+
+.anim {
+  transform: translateX(0);
+  transition: transform 1s;
 }

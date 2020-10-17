@@ -3,4 +3,26 @@
 .landing-box {
   height: 100vh;
   background-color: $white;
+  .arrow-box {
+    svg {
+      &:hover {
+        cursor: pointer;
+        animation-play-state: running;
+
+        animation: arrow-down 2s infinite;
+      }
+    }
+  }
+}
+
+@keyframes arrow-down {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(7%);
+  }
+  100% {
+    transform: translateY(15%);
+  }
 }
