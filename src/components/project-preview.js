@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //styles
-import "../styles/project-preview.css";
+import "../styles/project-preview.scss";
 
 const ProjectCard = ({ data }) => {
   return (
@@ -19,24 +19,28 @@ const ProjectCard = ({ data }) => {
         <div className="card-body">
           <div className="mb-3">
             <h4 className="card-title mr-3">{data.title}</h4>
-            <FontAwesomeIcon
-              icon={["fab", "github"]}
-              size="2x"
-              className="mr-3"
-              onClick={() => {
-                window.open(data.github_url);
-              }}
-            />
-            <FontAwesomeIcon
-              icon={["fas", "link"]}
-              size="2x"
-              onClick={() => {
-                window.open(data.netlify_url);
-              }}
-              data-toggle="tooltip"
-              data-placement="bottom"
-              title="Test it"
-            />
+            {data.github_url ? (
+              <FontAwesomeIcon
+                icon={["fab", "github"]}
+                size="2x"
+                className="mr-3"
+                onClick={() => {
+                  window.open(data.github_url);
+                }}
+              />
+            ) : null}
+            {data.netlify_url ? (
+              <FontAwesomeIcon
+                icon={["fas", "link"]}
+                size="2x"
+                onClick={() => {
+                  window.open(data.netlify_url);
+                }}
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Test it"
+              />
+            ) : null}
           </div>
           <p className="card-text">{data.description}</p>
           <p className="card-text mt-3">{data.skills}</p>

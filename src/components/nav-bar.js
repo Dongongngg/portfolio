@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles/nav-bar.css";
+import "../styles/nav-bar.scss";
 
 const NavBar = () => {
   const [showCollapsedMenu, setShowCollapsedMenu] = useState(false);

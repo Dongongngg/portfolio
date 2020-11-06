@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //
-import "../styles/intro.css";
+import "../styles/intro.scss";
 
 const Intro = () => {
   const [show, setShow] = useState(false);

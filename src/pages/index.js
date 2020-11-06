@@ -12,8 +12,8 @@ import Intro from "../sections/intro";
 import Project from "../sections/project";
 import Footer from "../sections/footer";
 //style
-import "../styles/index.css";
-import "../styles/reset.css";
+import "../styles/index.scss";
+import "../styles/reset.scss";
 //no blink large svg
 config.autoAddCss = false;
 export default () => {

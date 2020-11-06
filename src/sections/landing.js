@@ -3,7 +3,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Banner from "../components/banner";
-import "../styles/landing.css";
+import "../styles/landing.scss";
 
 const Landing = () => {
   //scroll to location

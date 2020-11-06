@@ -2,7 +2,7 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //
-import "../styles/footer.css";
+import "../styles/footer.scss";
 const Footer = () => {
   return (
     <div className="footer-box" id="footer">

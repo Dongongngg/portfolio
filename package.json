@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/Dongongngg/portfolio/issues"
   },
-  "homepage": "https://github.com/Dongongngg/portfolio#readme",
+  "homepage": "https://github.com/Dongongngg/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
@@ -24,6 +24,8 @@
     "babel": "^6.23.0",
     "bootstrap": "^4.5.2",
     "gatsby": "^2.24.47",
+    "gatsby-plugin-sass": "^2.4.2",
+    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
