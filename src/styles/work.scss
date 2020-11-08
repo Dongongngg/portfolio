@@ -1,0 +1,29 @@
+@import "./colors.scss";
+.work-box {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  min-height: 40vh;
+  color: $black;
+  .card {
+    border: none;
+    font-size: 1rem;
+    .card-subtitle {
+      margin: 0.75rem 0;
+    }
+  }
+}
+.tab-btn {
+  display: inline;
+}
+.work-title {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.work-location {
+  font-size: 1rem;
+}
+.work-res {
+  margin: 0.5rem 0;
+  list-style: inside;
+}

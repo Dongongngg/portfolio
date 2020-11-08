@@ -9,6 +9,7 @@ import "../fontawesome.js";
 import NavBar from "../components/nav-bar";
 import Landing from "../sections/landing";
 import Intro from "../sections/intro";
+import Work from "../sections/work";
 import Project from "../sections/project";
 import Footer from "../sections/footer";
 //style
@@ -22,6 +23,7 @@ export default () => {
       <NavBar></NavBar>
       <Landing></Landing>
       <Intro></Intro>
+      <Work></Work>
       <Project></Project>
       <Footer></Footer>
     </React.Fragment>

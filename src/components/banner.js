@@ -36,7 +36,7 @@ const Banner = () => {
             </a>
             <a
               className="icon-btn mr-3 ml-3"
-              href="/file/Resume - Jingfu Dong.pdf"
+              href="/file/Resume_Jingfu_Dong.pdf"
             >
               <FontAwesomeIcon icon={["fas", "file-download"]} size="2x" />
             </a>

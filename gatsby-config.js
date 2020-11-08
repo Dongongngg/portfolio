@@ -6,7 +6,7 @@ module.exports = {
     author: `Jingfu Dong`,
     projects: [
       {
-        id: `1`,
+        id: 1,
         title: `Ad word configurator`,
         github_url: `https://github.com/Dongongngg/ad-words-test`,
         description: `Code challenge I did for a marketing company. Full-stack app that allow users to store keywords/sites and settings which pre-populated from previous opertaion.`,
@@ -14,7 +14,7 @@ module.exports = {
         skills: `React | Material UI | Express | Sequelize | NodeJS | MySQL | Docker | REST api`,
       },
       {
-        id: `2`,
+        id: 2,
         title: `Job-listing(MERN)`,
         github_url: `https://github.com/Dongongngg/job-listing`,
         description: `Full-stack application that allows users to register/login, then create, update, delete, filter their job applications.`,
@@ -22,7 +22,7 @@ module.exports = {
         skills: `NodeJS | Express | React | Mongoose | MongoDB | JWT | REST api`,
       },
       {
-        id: `3`,
+        id: 3,
         title: `My Portfolio`,
         github_url: `https://github.com/Dongongngg/portfolio`,
         netlify_url: `https://jingfudong.com`,
@@ -39,6 +39,33 @@ module.exports = {
       //   img: `img/projects/covid19-au-stats/overall.png`,
       //   skills: `React | Material UI | SASS`,
       // },
+    ],
+    works: [
+      {
+        id: 1,
+        title: `Full-stack developer intern`,
+        company: `iShare Incubator`,
+        location: `Wynyard`,
+        responsibility: [
+          `Working within a team to build property management web application`,
+          `Creating functional page components, coding correlative front-end and back-end`,
+          `Optimization of business processes`,
+        ],
+        date: `May 2020 - Aug 2020`,
+      },
+      {
+        id: 2,
+        title: `Front-end developer intern`,
+        company: `Netstripes`,
+        location: `Pyrmont`,
+        responsibility: [
+          `Assisting WordPress theme development based on designs`,
+          `Administrating integrations with other platforms, managing website’s plugins`,
+          `Contribution of digital transformation solutions`,
+          `General IT troubleshooting`,
+        ],
+        date: `Oct 2018 - Jan 2019`,
+      },
     ],
   },
   pathPrefix: `/portfolio/public`,
