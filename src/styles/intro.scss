@@ -3,6 +3,7 @@
   overflow-x: hidden;
   min-height: 50vh;
   background-color: $yellow;
+
   .container {
     padding-top: 3rem;
     padding-bottom: 6rem;
@@ -53,7 +54,6 @@
 
 .intro-text-box {
   transform: translateX(100%);
-
   big {
     font-weight: 600;
   }

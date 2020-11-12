@@ -6,6 +6,20 @@ import "../styles/intro.scss";
 const Intro = () => {
   const [show, setShow] = useState(false);
   const ourRef = useRef(null);
+  const skillIcons1 = [
+    { icon: ["fab", "html5"], name: "Html5" },
+    { icon: ["fab", "js"], name: "JS-ES6" },
+    { icon: ["fab", "react"], name: "ReactJS" },
+    { icon: ["fab", "sass"], name: "SASS" },
+    { icon: ["fab", "bootstrap"], name: "BootStrap" },
+  ];
+  const skillIcons2 = [
+    { icon: ["fab", "node-js"], name: "NodeJS" },
+    { icon: ["fas", "database"], name: "MySQL" },
+    { icon: ["fas", "database"], name: "MongoDB" },
+    { icon: ["fab", "wordpress"], name: "WordPress" },
+    { icon: ["fab", "docker"], name: "Docker" },
+  ];
 
   useLayoutEffect(() => {
     const topPos = (element) => element.getBoundingClientRect().top;
@@ -47,10 +61,15 @@ const Intro = () => {
               Wollongong, I'm living in <big>Sydney</big>.
             </p>
             <p className="lead">
-              I'm a <big>web developer</big> who is passionate about learning
-              new technologies. I have experiences of <big>full-stack</big> and{" "}
-              <big>front-end</big> development.
+              Development job has never been just a job for me, it is a
+              lifestyle that offered engaging challenges to continuous learning
+              and improvement of my skills. I am keen on learning.
             </p>
+            <p className="lead">
+              I'm at very early stage of my career, I believe I will make
+              massive progress soon in the future.
+            </p>
+
             <p className="lead">
               Here is my skill set. Don't forget to check my recent project in
               the next section.
@@ -59,46 +78,14 @@ const Intro = () => {
             <div className="row icon-box">
               <div className="col-12">
                 <ul>
-                  <li>
-                    <div className="icon-caption-box">
-                      <FontAwesomeIcon icon={["fab", "html5"]} size="lg" />
-                      <p>Html5</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon-caption-box">
-                      <FontAwesomeIcon icon={["fab", "js"]} size="lg" />
-                      <p>JS-ES6</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon-caption-box">
-                      <FontAwesomeIcon icon={["fab", "sass"]} size="lg" />
-                      <p>SCSS</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon-caption-box">
-                      <FontAwesomeIcon icon={["fas", "database"]} size="lg" />
-                      <p>MySQL</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon-caption-box">
-                      <FontAwesomeIcon icon={["fas", "database"]} size="lg" />
-                      <p>MongoDB</p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-12">
-                <ul>
-                  <li>
-                    <div className="icon-caption-box">
-                      <FontAwesomeIcon icon={["fab", "react"]} size="lg" />
-                      <p>React</p>
-                    </div>
-                  </li>
+                  {skillIcons1.map((e, i) => (
+                    <li key={i}>
+                      <div className="icon-caption-box">
+                        <FontAwesomeIcon icon={e.icon} size="lg" />
+                        <p>{e.name}</p>
+                      </div>
+                    </li>
+                  ))}
                   <li>
                     <div className="icon-caption-box">
                       <img
@@ -109,18 +96,18 @@ const Intro = () => {
                       <p>Material UI</p>
                     </div>
                   </li>
-                  <li>
-                    <div className="icon-caption-box">
-                      <FontAwesomeIcon icon={["fab", "bootstrap"]} size="lg" />
-                      <p>Bootstrap</p>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="icon-caption-box">
-                      <FontAwesomeIcon icon={["fab", "wordpress"]} size="lg" />
-                      <p>Wordpress</p>
-                    </div>
-                  </li>
+                </ul>
+              </div>
+              <div className="col-12">
+                <ul>
+                  {skillIcons2.map((e, i) => (
+                    <li key={i}>
+                      <div className="icon-caption-box">
+                        <FontAwesomeIcon icon={e.icon} size="lg" />
+                        <p>{e.name}</p>
+                      </div>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>

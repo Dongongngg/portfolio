@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 *:focus {
-  outline: 0;
+  outline: 0 !important;
 }
 html,
 body,
@@ -15,11 +15,6 @@ body,
 }
 body {
   -webkit-font-smoothing: antialiased;
-}
-body,
-input,
-button {
-  font-family: "Oxygen", sans-serif !important;
 }
 
 ul {

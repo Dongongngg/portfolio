@@ -10,6 +10,8 @@ import {
   faJsSquare,
   faSass,
   faWordpress,
+  faDocker,
+  faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 import {
   faDatabase,
@@ -34,5 +36,7 @@ library.add(
   faChevronDown,
   faEnvelopeSquare,
   faLink,
-  faFileDownload
+  faFileDownload,
+  faDocker,
+  faNodeJs
 );

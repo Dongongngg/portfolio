@@ -52,11 +52,11 @@ const Work = () => {
       `}
       render={(data) => {
         return (
-          <>
+          <div className="work-box">
             <div className="section-title" id="works">
               <h1>Work Experiences</h1>
             </div>
-            <div className="work-box">
+            <div className="work-content">
               <div className="tab-content">
                 <div className="container">
                   <div className="row">
@@ -67,7 +67,7 @@ const Work = () => {
                 </div>
               </div>
             </div>
-          </>
+          </div>
         );
       }}
     />
