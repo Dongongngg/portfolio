@@ -11,10 +11,8 @@
 }
 
 .intro-box {
-  h1::selection,
-  p::selection,
-  big::selection {
-    color: $pink;
+  *::selection {
+    color: $white;
   }
 }
 

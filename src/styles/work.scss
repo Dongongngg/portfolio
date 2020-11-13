@@ -3,6 +3,12 @@
   min-height: 40vh;
   color: $black;
   background-color: $white;
+  * {
+    &::selection {
+      background-color: $black;
+      color: $white;
+    }
+  }
 }
 
 .work-content {

@@ -21,9 +21,8 @@
 }
 
 .banner {
-  h1::selection,
-  h4::selection,
-  a::selection {
-    color: $yellow;
+  *::selection {
+    background-color: white;
+    color: $black;
   }
 }

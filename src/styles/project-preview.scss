@@ -39,9 +39,14 @@
         margin-bottom: 5px;
       }
 
-      h4::selection,
-      p::selection {
-        color: #ffeee4;
+      .skills {
+        margin-right: 5px;
+        margin-bottom: 0;
+        display: inline-block;
+      }
+
+      *::selection {
+        color: $white;
       }
     }
   }

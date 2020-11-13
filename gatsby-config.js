@@ -11,7 +11,16 @@ module.exports = {
         github_url: `https://github.com/Dongongngg/ad-words-test`,
         description: `Code challenge I did for a marketing company. Full-stack app that allow users to store keywords/sites and settings which pre-populated from previous opertaion.`,
         img: `img/projects/code-test/ad-word.png`,
-        skills: `React | Material UI | Express | Sequelize | NodeJS | MySQL Server | Docker | REST api`,
+        skills: [
+          "React,",
+          "Material UI,",
+          "Express,",
+          "Sequelize,",
+          "NodeJS,",
+          "MySQL Server,",
+          "Docker,",
+          "REST api",
+        ],
       },
       {
         id: 2,
@@ -20,7 +29,15 @@ module.exports = {
         netlify_url: `https://aqueous-dawn-60527.herokuapp.com/`,
         description: `Full-stack application that allows users to signin/signup, create, update, delete, filter job applications.`,
         img: `img/projects/job-listing/job-listing.png`,
-        skills: `NodeJS | Express | React | Mongoose | MongoDB | JWT | REST api`,
+        skills: [
+          "NodeJS,",
+          "Express,",
+          "React,",
+          "Mongoose,",
+          "MongoDB,",
+          "JWT,",
+          "REST api",
+        ],
       },
       {
         id: 3,
@@ -29,7 +46,7 @@ module.exports = {
         netlify_url: `https://jingfudong.com`,
         description: `Graphql, Gatsby and Netlify deployment. Trying to make it clear.`,
         img: `img/projects/portfolio/landing.png`,
-        skills: `Gatsby | React | Bootstrap | SASS | Graphql`,
+        skills: ["Gatsby,", "React,", "Bootstrap,", "SASS,", "Graphql"],
       },
       // {
       //   id: `4`,

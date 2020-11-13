@@ -17,13 +17,13 @@ const ProjectCard = ({ data }) => {
         </div>
 
         <div className="card-body">
-          <div className="mb-3">
-            <h4 className="card-title mr-3">{data.title}</h4>
+          <div className="mb-4">
+            <h4 className="card-title mr-2">{data.title}</h4>
             {data.github_url ? (
               <FontAwesomeIcon
                 icon={["fab", "github"]}
                 size="2x"
-                className="mr-3"
+                className="mr-2"
                 onClick={() => {
                   window.open(data.github_url);
                 }}
@@ -43,7 +43,17 @@ const ProjectCard = ({ data }) => {
             ) : null}
           </div>
           <p className="card-text">{data.description}</p>
-          <p className="card-text mt-3">{data.skills}</p>
+          <div
+            className="dropdown-divider"
+            style={{ borderTop: "1px solid #413538", margin: "1rem 0" }}
+          ></div>
+          <div>
+            {data.skills.map((e, i) => (
+              <p className="skills" key={i}>
+                {e}
+              </p>
+            ))}
+          </div>
         </div>
       </div>
     </div>

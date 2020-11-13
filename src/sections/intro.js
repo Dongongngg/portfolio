@@ -6,6 +6,7 @@ import "../styles/intro.scss";
 const Intro = () => {
   const [show, setShow] = useState(false);
   const ourRef = useRef(null);
+
   const skillIcons1 = [
     { icon: ["fab", "html5"], name: "Html5" },
     { icon: ["fab", "js"], name: "JS-ES6" },
@@ -58,7 +59,7 @@ const Intro = () => {
             <p className="lead">
               Hi, Jingfu Dong here. I'm Chinese and I came to Australia in 2016.
               After I finished my Master degree of IT at University of
-              Wollongong, I'm living in <big>Sydney</big>.
+              Wollongong, I'm looking for work in <big>Sydney</big>.
             </p>
             <p className="lead">
               Development job has never been just a job for me, it is a
@@ -69,7 +70,6 @@ const Intro = () => {
               I'm at very early stage of my career, I believe I will make
               massive progress soon in the future.
             </p>
-
             <p className="lead">
               Here is my skill set. Don't forget to check my recent project in
               the next section.
