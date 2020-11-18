@@ -19,8 +19,8 @@ module.exports = {
           "NodeJS,",
           "MySQL Server,",
           "Docker,",
-          "REST api",
-        ],
+          "REST api"
+        ]
       },
       {
         id: 2,
@@ -36,8 +36,8 @@ module.exports = {
           "Mongoose,",
           "MongoDB,",
           "JWT,",
-          "REST api",
-        ],
+          "REST api"
+        ]
       },
       {
         id: 3,
@@ -46,17 +46,17 @@ module.exports = {
         netlify_url: `https://jingfudong.com`,
         description: `Graphql, Gatsby and Netlify deployment. Trying to make it clear.`,
         img: `img/projects/portfolio/landing.png`,
-        skills: ["Gatsby,", "React,", "Bootstrap,", "SASS,", "Graphql"],
+        skills: ["Gatsby,", "React,", "Bootstrap,", "SASS,", "Graphql"]
       },
-      // {
-      //   id: `4`,
-      //   title: `COVID-19 stats`,
-      //   github_url: `https://github.com/Dongongngg/covid19-au-stats`,
-      //   netlify_url: `https://covid-19-au.netlify.app/`,
-      //   description: `Fetch and display daily COVID19 stats from API`,
-      //   img: `img/projects/covid19-au-stats/overall.png`,
-      //   skills: `React | Material UI | SASS`,
-      // },
+      {
+        id: 4,
+        title: `Storytelling Game`,
+        github_url: `https://github.com/Dongongngg/eduf3037-game`,
+        netlify_url: `https://eduf3037-game.netlify.app/`,
+        description: `Storytelling game I made for a uni assignment.`,
+        img: `img/projects/eduf3037/test.png`,
+        skills: ["React,", "SASS"]
+      }
     ],
     works: [
       {
@@ -67,9 +67,9 @@ module.exports = {
         responsibility: [
           `Working within a team to build property management web application`,
           `Creating functional page components, coding correlative front-end and back-end`,
-          `Optimization of business processes`,
+          `Optimization of business processes`
         ],
-        date: `May 2020 - Aug 2020`,
+        date: `May 2020 - Aug 2020`
       },
       {
         id: 2,
@@ -80,11 +80,11 @@ module.exports = {
           `Assisting WordPress theme development based on designs`,
           `Administrating integrations with other platforms, managing website’s plugins`,
           `Contribution of digital transformation solutions`,
-          `General IT troubleshooting`,
+          `General IT troubleshooting`
         ],
-        date: `Oct 2018 - Jan 2019`,
-      },
-    ],
+        date: `Oct 2018 - Jan 2019`
+      }
+    ]
   },
-  pathPrefix: `/portfolio/public`,
+  pathPrefix: `/portfolio/public`
 };
