@@ -2,7 +2,7 @@ module.exports = {
   plugins: [`gatsby-plugin-sass`],
   siteMetadata: {
     title: `Jingfu's portfolio`,
-    description: `Hello! My name is Jingfu Dong, welcome to my portfolio site. I'm looking for job, you can download my resume.`,
+    description: `Hello! My name is Jingfu Dong, welcome to my portfolio site. I'm looking for an opportunity in web development, you can download my resume.`,
     author: `Jingfu Dong`,
     projects: [
       {
@@ -27,7 +27,7 @@ module.exports = {
         title: `Job-list (MERN)`,
         github_url: `https://github.com/Dongongngg/job-listing`,
         netlify_url: `https://aqueous-dawn-60527.herokuapp.com/`,
-        description: `Full-stack application that allows users to signin/signup, create, update, delete, filter job applications.`,
+        description: `Full-stack application that allows users to signin/signup, CRUD and filter job applications.`,
         img: `img/projects/job-listing/job-listing.png`,
         skills: [
           "NodeJS,",
@@ -41,6 +41,15 @@ module.exports = {
       },
       {
         id: 3,
+        title: `Minesweeper Clone`,
+        github_url: `https://github.com/Dongongngg/minesweeper`,
+        netlify_url: `https://cocky-meninsky-1cd43d.netlify.app/`,
+        description: `A clone of Windows classic game minesweeper using TypeScript + React.`,
+        img: `img/projects/minesweeper/minesweeper.png`,
+        skills: ["React,", "TypeScript,", "SASS"]
+      },
+      {
+        id: 4,
         title: `My Portfolio`,
         github_url: `https://github.com/Dongongngg/portfolio`,
         netlify_url: `https://jingfudong.com`,
@@ -49,11 +58,11 @@ module.exports = {
         skills: ["Gatsby,", "React,", "Bootstrap,", "SASS,", "Graphql"]
       },
       {
-        id: 4,
+        id: 5,
         title: `Storytelling Game`,
         github_url: `https://github.com/Dongongngg/eduf3037-game`,
         netlify_url: `https://eduf3037-game.netlify.app/`,
-        description: `Storytelling game I made for a uni assignment.`,
+        description: `Storytelling game I made for an assignment of an university's teaching course. It scores 58/60.`,
         img: `img/projects/eduf3037/test.png`,
         skills: ["React,", "SASS"]
       }
@@ -66,8 +75,8 @@ module.exports = {
         location: `Wynyard`,
         responsibility: [
           `Working within a team to build property management web application`,
-          `Creating functional page components, coding correlative front-end and back-end`,
-          `Optimization of business processes`
+          `Creating functional page and components, coding correlative front-end and back-end`,
+          `Optimizating business processes`
         ],
         date: `May 2020 - Aug 2020`
       },
